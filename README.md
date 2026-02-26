@@ -7,7 +7,9 @@ Click the image below to interact with the full dashboard on Tableau Public.
 [![Covid Cases Dashboard Preview](https://github.com/asfernando02/covidcases/blob/main/covid_dashboard_preview.png)](https://public.tableau.com/shared/2B47869RW?:display_count=n&:origin=viz_share_link)
 
 ## Key Insights
-
+1. Some countries with smaller populations showed higher infection rates relative to population size, indicating disproportionate spread.
+2. Rolling aggregations revealed distinct infection waves rather than linear growth.
+3. Absolute metrics (total cases) should be paired with relative metrics (percentage of population infected) for meaningful analysis.
 
 ## Data Sources
 The dataset for this analysis was sourced from https://ourworldindata.org/covid-deaths. It contains global coronavirus case data including new deaths, new vaccinations, countries, and population size.
@@ -15,4 +17,4 @@ The dataset for this analysis was sourced from https://ourworldindata.org/covid-
 ## Tools Used
 Excel - For initial data cleaning and setup  
 MySQL - To query subsets of data and filter on conditions   
-Tableau - To visualize tables and charts made from queries in MySQL
+Tableau - To visualize tables and charts made from SQL queries
